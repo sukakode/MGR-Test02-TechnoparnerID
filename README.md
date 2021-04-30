@@ -1,3 +1,23 @@
+<p align="center">
+    Installation GUIDE !
+    by. M Gilang
+    
+    - Command Promp / GitBash 
+    - Composer 2.0.12
+    - PHP 8.0.3 | Minimum Req. PHP > 7.3 
+    
+    -- cp .env.example .env
+    -- composer install 
+    -- create database with name -> t2_technopartner | or anything you like then
+    --- change the .env files
+    --- DB_DATABASE=*new database name*
+    -- php artisan optimize | php artisan optimize:clear
+    -- php artisan migrate | php artisan migrate:fresh
+    -- php artisan serve 
+    
+</p>
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
